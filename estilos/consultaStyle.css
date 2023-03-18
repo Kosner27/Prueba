@@ -1,0 +1,73 @@
+
+*{
+    margin: 0;
+   
+    
+}
+.container-fluid{
+    display:flexbox;
+    flex-direction:column;
+    justify-content: center;
+    background-image: url(/imagenes/gradient-ge58ba2641_640.jpg);
+    background-size: cover;
+
+}
+a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.caja{
+     
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+   
+
+}
+p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 23px;
+    font-style: italic;
+    padding: 20px;
+    text-align:justify
+}
+li{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 23px;
+    font-style: italic; 
+}
+h1{
+    color:#FFEBCD;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 23px;
+    font-style: italic; 
+    margin-left: 10px;; 
+
+}
+.titulo{
+    margin-top:10px;
+    margin-left: 10px;;
+}
+.img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.img2{
+    width: 650px;
+    height: 450px;
+}
+.autor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+img{
+    border-radius: 400px;
+}
+.img3{
+    width: 550px;
+    height: 450px;
+}
