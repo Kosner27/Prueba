@@ -5,122 +5,120 @@ box-sizing: 0;
 }
 body{
     background-image: url(../imagenes/fondo.jpg);
-    background-size: cover;
+    
+    display: flex;
+    flex-direction: column;
+   min-width: 375px;
+    max-width: 1440px;
+    font-size: 14px;
 }
 
 .banner{
-    height: 120px;
-    width: 60%;
-    margin-top: 40px;
-    margin-left: 15px;
+    height: 5rem;
+    width: 20rem;
+    margin-top: 3rem;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    /*justify-content: space-between;*/
     background-color:#9CB1CA;
     border-radius: 50px;
 
 }
 .logo{
-    width: 300px;
-    height: 200px;
+    width: 10rem;
+    height: 7.5rem;
     border-radius: 180px;
 }
 .imagen{
     
     position: absolute;
-    width: 530px;
-    height: 164px;
+    width: 53rem;
+    height: 40rem;
     left: 28px;
     top: 7px;
    
 }
 h1{
+    color:white;
     font-family: 'Inter';
     font-style: italic;
-    margin-top: 40px;
-    margin-left: 329px;
-    padding-bottom: 80px;
+    margin-top:5rem;
+    margin-right: 0.5rem;
 
 }
 .contenido{
     display: flex;
-    flex-direction: row;
-    width: 60%;
-    margin-left: 10px;
-    margin-top: 50px;
+    flex-direction: column;
+    width: 20rem;
+    margin-top: 4rem;
 }
 .card{
     background-color:#9CB1CA;
-    width:70%;
-    margin-right: 10px;
-    height: 242px;
+    width: 20rem;
+    height: 15rem;
     border-radius: 30px;
 }
 .card2{
     width: 30%;
-    margin-left: 10px;
+
 }
 .foto{
-    width: 190px;
+    width: 10rem;
     height: 241px;
-    left: 670px;
-    top: 156px;
+    
+    margin-top: 3rem;
     border-radius: 30px;
 }
 .caja1{
-    position: absolute;
     width: 237px;
     height: 344px;
-    left: 830px;
-    margin-right: 10px;
-    top: 53px;
+    margin-left: 4rem;
+    margin-right: 3rem;
+    margin-top: 4rem;
     background: #9CB1CA;
     border-radius: 35px;
 }
 .caja2{
-    position: absolute;
+  
     width: 237px;
     height: 344px;
-    margin-right: 50px;
-    left: 1100px;
-    top: 53px;
+    margin-left: 4rem;
+    margin-right: 3rem;
+    margin-top: 4rem;
     background: #9CB1CA;
     border-radius: 35px;
 }
 .caja3{
-    position: absolute;
+   
     width: 237px;
     height: 344px;
-    left: 830px;
-    top: 451px;
-    
-    background:#9CB1CA;
+    margin-left: 4rem;
+    margin-right: 3rem;
+    margin-top: 4rem;
+    background: #9CB1CA;
     border-radius: 35px;
 }
 .caja4{
-    position: absolute;
+   
     width: 237px;
     height: 344px;
-    left: 1100px;
-    top: 451px;
-    
+    margin-left: 4rem;
+    margin-right: 3rem;
+    margin-top: 4rem;
     background: #9CB1CA;
     border-radius: 35px;
 }
 footer{
-    position: absolute;
-width: 800px;
-height: 100px;
-left: 10px;
-top: 550px;
-text-align: center;
-background: #9CB1CA;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 35px;
+    width: 15rem;
+    height: 10rem;
+    margin-left: 4rem;
+    margin-right: 3rem;
+    margin-top: 4rem;
+    background: #9CB1CA;
+    border-radius: 35px;
 }
 .frase{
     margin-top: 20px;
-    margin-left: -10px;
     text-align: center;
     
 }
@@ -132,15 +130,159 @@ h2{
 }
 ol{  font-weight: bold;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    margin-top: 30px;
-    margin-left: 40px;
+    margin-left: 4rem;
 }
 a{
     text-decoration:none;
     color: black;
 }p{
     font-weight: bold;
-    margin:30px;
-    font-size: 20px;
+    margin-top: 0.4rem; 
+    font-size: 1rem;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+@media only screen and (min-width: 922px){
+    body{
+      background-color:#929CA8; 
+      display: flex;
+      flex-direction: row;
+      font-size: 14px;
+      
+    }
+    .banner{
+        height: 120px;
+        width: 60%;
+        margin-top: 40px;
+        margin-left: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color:#9CB1CA;
+        border-radius: 50px;
+    
+    }
+    .logo{
+        width: 300px;
+        height: 200px;
+        border-radius: 180px;
+    }
+    .imagen{
+        
+        position: absolute;
+        width: 530px;
+        height: 164px;
+        left: 28px;
+        top: 7px;
+       
+    }
+    h1{
+        font-family: 'Inter';
+        font-style: italic;
+        margin-top: 40px;
+        margin-left: 329px;
+        padding-bottom: 80px;
+        color: black;
+    
+    }
+    .contenido{
+        display: flex;
+        flex-direction: row;
+        width: 60%;
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+    .card{
+        background-color:#9CB1CA;
+        width:70%;
+        margin-right: 10px;
+        height: 242px;
+        border-radius: 30px;
+    }
+    .card2{
+        width: 30%;
+        margin-left: 4rem;
+        margin-top: 1000px;
+
+    }
+    .foto{
+        width: 190px;
+        height: 241px;
+        margin-top: -10px;
+        border-radius: 30px;
+    }
+    .caja1{
+        position: absolute;
+        width: 237px;
+        height: 344px;
+        left: 760px;
+        top: -30px;
+        background: #9CB1CA;
+        border-radius: 35px;
+    }
+    .caja2{
+        position: absolute;
+        width: 237px;
+        height: 344px;
+        left: 1020px;
+        top: -30px;
+        background: #9CB1CA;
+        border-radius: 35px;
+    }
+    .caja3{
+        position: absolute;
+        width: 237px;
+        height: 344px;
+        left: 760px;
+        top: 380px;
+        
+        background:#9CB1CA;
+        border-radius: 35px;
+    }
+    .caja4{
+        position: absolute;
+        width: 237px;
+        height: 344px;
+        left: 1020px;
+        top: 380px;
+        
+        background: #9CB1CA;
+        border-radius: 35px;
+    }
+    footer{
+        position: absolute;
+    width: 800px;
+    height: 100px;
+    margin-left: 5px;
+    top: 550px;
+    text-align: center;
+    background: #9CB1CA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 35px;
+    }
+    .frase{
+        margin-top: 20px;
+        margin-left: -10px;
+        text-align: center;
+        
+    }
+    h2{
+        text-align: center;
+        color: black;
+        font-weight: bold;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    ol{  font-weight: bold;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+    a{
+        text-decoration:none;
+        color: black;
+    }p{
+        font-weight: bold;
+        margin:30px;
+        font-size: 20px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+  }

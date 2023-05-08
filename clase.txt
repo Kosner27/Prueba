@@ -1,0 +1,6 @@
+diseño adaptativo
+display: flex, grid
+
+unidades de medida
+%, px, em, rem, vwm vh 
+

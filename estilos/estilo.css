@@ -1,126 +1,163 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  box-sizing: content-box;
 }
 body{
-    background-color:#929CA8;
+  background-color:#929CA8; 
+  display: flex;
+  flex-direction: column;
+  
+ min-width: 375px;
+  max-width: 1440px;
+  font-size: 14px;
 }
 .encabezado{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-around;
-    background-color: #3A434D;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /*justify-content:space-around;*/
+  background-color: #3A434D;
 }
 
 img{
-    height: 211px;
-    width: 263px;
-    margin-left: 15px;
-    margin-right: 50px;
-    border-radius: 160px;
+  height: 15rem;
+  width: 17rem;
+  margin-left: 3rem;
+  margin-right: 50px;
+  border-radius: 160px;
 }
 .frase{
-    font-family: 'Inter';
-    font-style: italic;
-    font-weight: 600;
-    font-size: 40px;
-    line-height: 67px;
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 3rem;
 }
 .acerca{
-    background-color:#66707B;
+  background-color:#66707B;
+  font-size: 1.5rem;
+  font-family: 'Inter';
+  font-style: italic;
 }
 .sobre{
-    font-family: 'Inter';
-    font-style: italic;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 23px;
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
 }
 .cards{
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  padding-left:0.5rem;
+  
 }
 .flip-card1{
-    width: 300px;
-    height: 300px;
-    margin-left: 30px;
-    margin-top: 40px;
-   
-   
+  width: 300px;
+  height: 300px;
+  margin-left: 30px;
+  margin-top: 40px;
+ 
+ 
 }
 .flip-card1-inner{
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.6s;
-    transform-style: preserve-3d;
-   
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+ 
 }
 .flip-card1:hover .flip-card1-inner {
-    transform: rotateY(180deg);
-  }
-  .frente, .atras {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    border-radius: 60px;
-  }
-  
-  .frente {
-    background-color: #265366;
-    color: black;
-  }
-  
-  .atras {
+  transform: rotateY(180deg);
+}
+.frente, .atras {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 60px;
+}
 
-    background-color: #265366;
-    color: white;
-    transform: rotateY(180deg);
+.frente {
+  background-color: #265366;
+  color: black;
+}
+
+.atras {
+
+  background-color: #265366;
+  color: white;
+  transform: rotateY(180deg);
+}
+.boton{
+  margin-top: 120px;
+  text-align: center;
+  background-color: white;
+  color: black;
+  border-radius: 50px;
+  width: 200px;
+  margin-left: 45px;
+}
+a{
+ color: black;
+ text-decoration: none;
+}
+.hobbies{
+  margin-left: 35px;
+  margin-top: 25px;
+  width: 170px;
+  height: 140px;
+}
+.text{
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 67px;
+}
+.contactos{
+  margin-left: 35px;
+  margin-top: 25px;
+  width: 170px;
+  height: 140px;
+}
+.cv{
+  margin-left: 35px;
+  margin-top: 25px;
+  width: 170px;
+  height: 140px;
+}
+.skills{
+  margin-left: 35px;
+  margin-top: 25px;
+  width: 170px;
+  height: 140px;
+}
+@media only screen and (min-width: 922px){
+  body{
+    background-color:#929CA8; 
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    
   }
-  .boton{
-    margin-top: 120px;
-    text-align: center;
-    background-color: white;
-    color: black;
-    border-radius: 50px;
-    width: 200px;
-    margin-left: 45px;
-  }
-  a{
-   color: black;
-   text-decoration: none;
-  }
-  .hobbies{
-    margin-left: 35px;
-    margin-top: 25px;
-    width: 170px;
-    height: 140px;
-  }
-  .text{
-    font-family: 'Inter';
-    font-style: italic;
-    font-weight: 600;
-    font-size: 40px;
-    line-height: 67px;
-  }
-  .contactos{
-    margin-left: 35px;
-    margin-top: 25px;
-    width: 170px;
-    height: 140px;
-  }
-  .cv{
-    margin-left: 35px;
-    margin-top: 25px;
-    width: 170px;
-    height: 140px;
-  }
-  .skills{
-    margin-left: 35px;
-    margin-top: 25px;
-    width: 170px;
-    height: 140px;
-  }
+  .encabezado{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content:space-around;
+    background-color: #3A434D;
+    
+}
+.cards{
+  display: flex;
+  flex-direction: row;
+  padding-left:0.5rem;
+  flex-wrap:wrap;
+  
+}
+}
