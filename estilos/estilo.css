@@ -5,7 +5,7 @@
   box-sizing: content-box;
 }
 body{
-  background-color:#929CA8; 
+  background-color:white; 
   display: flex;
   flex-direction: column;
   
@@ -18,7 +18,7 @@ body{
   flex-direction: column;
   width: 100%;
   /*justify-content:space-around;*/
-  background-color: #3A434D;
+  background-color: #333333;
 }
 
 img{
@@ -36,10 +36,11 @@ img{
   line-height: 3rem;
 }
 .acerca{
-  background-color:#66707B;
+  background-color: #333333;
   font-size: 1.5rem;
   font-family: 'Inter';
   font-style: italic;
+  color: white;
 }
 .sobre{
   font-family: 'Inter';
@@ -83,13 +84,13 @@ img{
 }
 
 .frente {
-  background-color: #265366;
+  background-color: #0099CC;
   color: black;
 }
 
 .atras {
 
-  background-color: #265366;
+  background-color:  #0099CC;
   color: white;
   transform: rotateY(180deg);
 }
@@ -139,7 +140,7 @@ a{
 }
 @media only screen and (min-width: 922px){
   body{
-    background-color:#929CA8; 
+    background-color:white; 
     display: flex;
     flex-direction: row;
     font-size: 14px;
@@ -150,8 +151,11 @@ a{
     flex-direction: row;
     width: 100%;
     justify-content:space-around;
-    background-color: #3A434D;
+    background-color: #333333;
     
+}
+.boton{
+  color: black;
 }
 .cards{
   display: flex;
@@ -159,5 +163,15 @@ a{
   padding-left:0.5rem;
   flex-wrap:wrap;
   
+}
+.acerca{
+  color: white;
+  background-color: #333333;
+}
+.text{
+  color:white;
+}
+.frase{
+color: white;
 }
 }

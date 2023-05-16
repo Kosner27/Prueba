@@ -5,7 +5,7 @@
     box-sizing: content-box;
 }
 body{
-    background-color:#929CA8;
+    background-color:white;
     display: flex;
     flex-direction: column;
    min-width: 375px;
@@ -17,7 +17,7 @@ header{
     width: 100%;
     /*justify-content:flex-start;*/
     flex-direction: column;
-    background-color: #3A434D;
+    background-color: #333333;
 }
 img{
     height: 15rem;
@@ -39,11 +39,12 @@ img{
 .hb{
     margin-bottom:3rem;
     font-size:2rem;
+    color: white;
 }
 .boton{
     text-align: center;
     margin-top: 0.1rem;
-    background-color: #265366;
+    background-color:#0099CC;
    margin-bottom: 0.5rem;
    border-radius: 0.5rem;
    width: 19rem;
@@ -83,7 +84,7 @@ li{
 }
 @media only screen and (min-width: 922px){
     body{
-      background-color:#929CA8; 
+      background-color:white; 
       display: flex;
       flex-direction: row;
       font-size: 14px;
@@ -100,7 +101,7 @@ li{
       width: 100%;
       justify-content:flex-start;
       flex-direction: row;
-      background-color: #3A434D;
+      background-color: #333333;
   }
  
 .frase{
@@ -117,7 +118,7 @@ li{
     
     text-align: center;
    margin-top: 5rem;
-   background-color: #265366;
+   background-color: #0099CC;
   margin-bottom: 0.5rem;
   border-radius: 0.5rem;
   width: 19rem;
@@ -140,5 +141,7 @@ progress{
     width: 10rem;
 
 }
-
+.hb{
+    color: white;
+}
 }

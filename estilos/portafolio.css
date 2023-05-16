@@ -1,288 +1,211 @@
-*{margin: 0;
-padding: 0;
-box-sizing: 0;
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    box-sizing: content-box;
 }
 body{
-    background-image: url(../imagenes/fondo.jpg);
-    
     display: flex;
     flex-direction: column;
-   min-width: 375px;
+    min-width: 375px;
     max-width: 1440px;
     font-size: 14px;
 }
-
-.banner{
-    height: 5rem;
-    width: 20rem;
-    margin-top: 3rem;
+header{
+  
     display: flex;
     flex-direction: column;
-    /*justify-content: space-between;*/
-    background-color:#9CB1CA;
-    border-radius: 50px;
-
-}
-.logo{
-    width: 10rem;
-    height: 7.5rem;
-    border-radius: 180px;
-}
-.imagen{
-    
-    position: absolute;
-    width: 53rem;
-    height: 40rem;
-    left: 28px;
-    top: 7px;
-   
+    justify-content:flex-start;
 }
 h1{
-    color:white;
     font-family: 'Inter';
     font-style: italic;
-    margin-top:5rem;
-    margin-right: 0.5rem;
-
+    font-weight: 600;
+    font-size: 2rem;
+    width: 60%;
+    line-height: 2rem;
+    margin-left: 3rem;
+   
 }
-.contenido{
+img{
+    width:19rem;
+    height: 19rem;
+    border-radius: 100px;
+}
+.perfil{
+    margin-left: 3rem;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 3rem;
+}
+.divisiones{
     display: flex;
     flex-direction: column;
-    width: 20rem;
-    margin-top: 4rem;
 }
-.card{
-    background-color:#9CB1CA;
-    width: 20rem;
-    height: 15rem;
-    border-radius: 30px;
-}
-.card2{
-    width: 30%;
+.Talleres{
+background-color: #004b49;
+margin-left: 3rem;
+margin-right: 1.5rem;
+width: 10rem;
+margin-bottom: 1.5rem;
+color: white;
+border-radius: 1rem;
 
 }
-.foto{
+.diseno{
+    background-color: #004b49;
+    margin-left: 3rem;
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-top:1.5rem;
+    width: 10rem; 
+    color: white;
+    border-radius: 1rem;
+}
+.consultas{
+    background-color: #004b49;
+    margin-left: 3rem;
+    margin-right: 1.5rem;
     width: 10rem;
-    height: 241px;
-    
-    margin-top: 3rem;
-    border-radius: 30px;
+    margin-bottom: 1.5rem;
+    color: white;
+    border-radius: 1rem;
 }
-.caja1{
-    width: 237px;
-    height: 344px;
-    margin-left: 4rem;
-    margin-right: 3rem;
-    margin-top: 4rem;
-    background: #9CB1CA;
-    border-radius: 35px;
+.Retos{
+    background-color: #004b49;
+    margin-left: 3rem;
+    margin-right: 1.5rem;
+    width: 10rem;
+    margin-bottom: 1.5rem;
+    color: white;
+    border-radius: 1rem;
 }
-.caja2{
-  
-    width: 237px;
-    height: 344px;
-    margin-left: 4rem;
-    margin-right: 3rem;
-    margin-top: 4rem;
-    background: #9CB1CA;
-    border-radius: 35px;
-}
-.caja3{
+p{
+    font-family: 'Inter';
+    font-style: italic;
+    font-size: 2rem;
+    width: 60%;
+    line-height: 2rem;
+    margin-left: 3rem;
    
-    width: 237px;
-    height: 344px;
-    margin-left: 4rem;
-    margin-right: 3rem;
-    margin-top: 4rem;
-    background: #9CB1CA;
-    border-radius: 35px;
-}
-.caja4{
-   
-    width: 237px;
-    height: 344px;
-    margin-left: 4rem;
-    margin-right: 3rem;
-    margin-top: 4rem;
-    background: #9CB1CA;
-    border-radius: 35px;
-}
-footer{
-    width: 15rem;
-    height: 10rem;
-    margin-left: 4rem;
-    margin-right: 3rem;
-    margin-top: 4rem;
-    background: #9CB1CA;
-    border-radius: 35px;
-}
-.frase{
-    margin-top: 20px;
-    text-align: center;
-    
 }
 h2{
-    text-align: center;
-    color: black;
-    font-weight: bold;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Inter';
+    font-style: italic;
+    font-size: 1.5rem;
+    width: 60%;
+    line-height: 2rem;
+    margin-left: 3rem;
+   
 }
-ol{  font-weight: bold;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: 4rem;
+ol{   font-family: 'Inter';
+    font-style: italic;
+    font-size: 1rem;
+   
+    line-height: 2rem;
+    margin-left: 3rem;
 }
 a{
     text-decoration:none;
-    color: black;
-}p{
-    font-weight: bold;
-    margin-top: 0.4rem; 
-    font-size: 1rem;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;   
+}
+footer{
+    background-color: #004b49;
+   
+    color: white;
+    display: flex;
+    flex-direction: row;
+  margin-top: 1.5rem;
+
+}
+.u{
+    margin-top: 2rem;
+    width:4rem;
+    height:4rem;
+    margin-left: -2rem;
+}
+.presentacion{
+margin-top: 1.5rem;
 }
 @media only screen and (min-width: 922px){
     body{
-      background-color:#929CA8; 
-      display: flex;
-      flex-direction: row;
-      font-size: 14px;
-      
-    }
-    .banner{
-        height: 120px;
-        width: 60%;
-        margin-top: 40px;
-        margin-left: 15px;
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        background-color:#9CB1CA;
-        border-radius: 50px;
-    
-    }
-    .logo{
-        width: 300px;
-        height: 200px;
-        border-radius: 180px;
-    }
-    .imagen{
-        
-        position: absolute;
-        width: 530px;
-        height: 164px;
-        left: 28px;
-        top: 7px;
+        flex-direction: column;
+        font-size: 14px;
+      }
+      header{
+        display: flex;
+        width: 100%;
        
-    }
-    h1{
-        font-family: 'Inter';
-        font-style: italic;
-        margin-top: 40px;
-        margin-left: 329px;
-        padding-bottom: 80px;
-        color: black;
-    
-    }
-    .contenido{
-        display: flex;
         flex-direction: row;
-        width: 60%;
-        margin-left: 10px;
-        margin-top: 50px;
-    }
-    .card{
-        background-color:#9CB1CA;
-        width:70%;
-        margin-right: 10px;
-        height: 242px;
-        border-radius: 30px;
-    }
-    .card2{
-        width: 30%;
-        margin-left: 4rem;
-        margin-top: 1000px;
 
     }
-    .foto{
-        width: 190px;
-        height: 241px;
-        margin-top: -10px;
-        border-radius: 30px;
+    img{
+        width:19rem;
+        height: 19rem;
+        border-radius: 100px;
+        margin-left: 1.5rem;
     }
-    .caja1{
-        position: absolute;
-        width: 237px;
-        height: 344px;
-        left: 760px;
-        top: -30px;
-        background: #9CB1CA;
-        border-radius: 35px;
+    .perfil{
+        margin-left: 1.5rem;
+        margin-right: 3rem;
+        width: 20rem;
+        height: 20rem;
+        border-radius: 3rem;
     }
-    .caja2{
-        position: absolute;
-        width: 237px;
-        height: 344px;
-        left: 1020px;
-        top: -30px;
-        background: #9CB1CA;
-        border-radius: 35px;
+    p{
+        font-family: 'Inter';
+        font-style: italic;
+        font-size: 2rem;
+        width: 60%;
+        line-height: 2rem;
+        margin-left: 20rem;
+        margin-bottom: 1.5rem;
+       
     }
-    .caja3{
-        position: absolute;
-        width: 237px;
-        height: 344px;
-        left: 760px;
-        top: 380px;
+    .divisiones{
+        display: flex;
+        flex-direction: row;
+        margin-left: 15rem;
         
-        background:#9CB1CA;
-        border-radius: 35px;
     }
-    .caja4{
-        position: absolute;
-        width: 237px;
-        height: 344px;
-        left: 1020px;
-        top: 380px;
+    .diseno{
+        background-color: #004b49;
+        margin-left: 3rem;
+        margin-right: 1.5rem;
+        margin-bottom: 1.5rem;
+        width: 10rem; 
+        color: white;
         
-        background: #9CB1CA;
-        border-radius: 35px;
     }
     footer{
-        position: absolute;
-    width: 800px;
-    height: 100px;
-    margin-left: 5px;
-    top: 550px;
-    text-align: center;
-    background: #9CB1CA;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 35px;
+    background-color: #004b49;
+    color: white;
+    display: flex;
+    flex-direction: row;
+   
+    margin-top: 1.5rem;
     }
-    .frase{
-        margin-top: 20px;
-        margin-left: -10px;
-        text-align: center;
-        
+    .foot{
+        font-family: 'Inter';
+        font-style: italic;
+        font-size: 1rem;
+        line-height: 2rem; 
+        color: white;
+    display: flex;
+    flex-direction: row;
     }
-    h2{
-        text-align: center;
-        color: black;
-        font-weight: bold;
-        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    .foot1{
+        margin-right: 2.5rem;
     }
-    ol{  font-weight: bold;
-        font-family:Verdana, Geneva, Tahoma, sans-serif;
-        margin-top: 30px;
-        margin-left: 40px;
+    .foot2{
+        margin-right: 2.5rem;
     }
-    a{
-        text-decoration:none;
-        color: black;
-    }p{
-        font-weight: bold;
-        margin:30px;
-        font-size: 20px;
-        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    .u{
+        margin-top: 2rem;
+        width:10rem;
+        height:5rem;
+    
     }
-  }
+}
+

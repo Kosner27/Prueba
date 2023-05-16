@@ -5,7 +5,7 @@
   box-sizing: content-box;
 }
 body{
-  background-color:#929CA8;
+  background-color:white;
   display: flex;
   flex-direction: column;
   
@@ -18,12 +18,15 @@ header{
   width: 100%;
   /*justify-content:flex-start;*/
   flex-direction: column;
-  background-color: #3A434D;
+  background-color: #333333;
+}
+h1{
+  color: white;
 }
 img{
 height: 15rem;
 width: 17rem;
-margin-left: 3rem;
+margin-left: 1rem;
 margin-right: 3rem;
 border-radius: 160px;
 }
@@ -33,23 +36,24 @@ font-style: italic;
 font-weight: 600;
 font-size: 2rem;
 line-height: 3rem;
-margin-left: 2rem;
+margin-left: 0.5rem;
 
  
 }
 .hb{
   margin-bottom:3rem;
   font-size:3rem;
+  color: white;
 }
 .boton{
   
    text-align: center;
   margin-top: 0.1rem;
-  background-color: #265366;
+  background-color: #0099CC;
  margin-bottom: 0.5rem;
  border-radius: 0.5rem;
  width: 19rem;
- margin-left: 2rem;
+ margin-left: 0rem;
 }
 a{  
 
@@ -63,7 +67,7 @@ a{
 display: flex;
 flex-direction: column;
 margin-right: 2rem;
-margin-left: 1.2rem;
+margin-left: 1.5rem;
 }
 .flip-card1{
   width: 300px;
@@ -95,13 +99,13 @@ margin-left: 1.2rem;
 }
 
 .frente {
-  background-color: #265366;
+  background-color:#0099CC;
   color: black;
 }
 
 .atras {
 
-  background-color: #265366;
+  background-color: #0099CC;
   color: white;
   transform: rotateY(180deg);
 }
@@ -136,7 +140,7 @@ p{
 }
 @media only screen and (min-width: 922px){
   body{
-    background-color:#929CA8; 
+    background-color:white; 
     display: flex;
     flex-direction: row;
     font-size: 14px;
@@ -153,7 +157,7 @@ p{
     width: 100%;
     justify-content:flex-start;
     flex-direction: row;
-    background-color: #3A434D;
+    background-color: #333333;
 }
 
 .frase{
@@ -170,7 +174,7 @@ margin-left: 0.5rem;
   
   text-align: center;
  margin-top: 5rem;
- background-color: #265366;
+ background-color: #0099CC;
 margin-bottom: 0.5rem;
 border-radius: 0.5rem;
 width: 19rem;
@@ -191,5 +195,7 @@ margin-left:3rem;
 margin-right: 3rem;
 margin-top: 40px;
 }
-
+h1{
+  color: white;
+}
 }

@@ -5,7 +5,7 @@
     box-sizing: content-box;
 }
 body{
-    background-color:#929CA8;
+    background-color:white;
     display: flex;
     flex-direction: column;
    min-width: 375px;
@@ -17,7 +17,7 @@ header{
     width: 100%;
     /*justify-content:flex-start;*/
     flex-direction: column;
-    background-color: #3A434D;
+    background-color:#333333;
 }
 img{
     height: 15rem;
@@ -34,16 +34,17 @@ img{
     width: 60%;
     line-height: 2rem;
     margin-left: 3rem;
-   
+   color: #333333;
 }
 .hb{
     margin-bottom:3rem;
     font-size:2rem;
+    color: #FFFFFF;
 }
 .boton{
     text-align: center;
     margin-top: 0.1rem;
-    background-color: #265366;
+    background-color: #0099CC;
    margin-bottom: 0.5rem;
    border-radius: 0.5rem;
    width: 19rem;
@@ -60,7 +61,7 @@ a{
 
 .card1{
     margin-top: 1rem;
-    background-color: #265366;
+    background-color:  #0099CC;
     padding-top: 1rem;
     text-align: center;
     width: 10rem;
@@ -79,7 +80,7 @@ p{color: white;
 
     padding: 1.5rem;
     border-radius: 50px;
-    background-color: #265366;
+    background-color:   #0099CC;
 
 }
 h1{
@@ -105,7 +106,7 @@ li{
 }
 @media only screen and (min-width: 922px){
     body{
-        background-color:#929CA8; 
+        background-color:white; 
         display: flex;
         flex-direction: row;
         font-size: 14px;
@@ -117,14 +118,19 @@ li{
         margin-right: 2rem;
         border-radius: 160px;
       }
+      .perfil{
+        background-color: #FFFFFF;
+      }
       header{
         display: flex;
         width: 100%;
         justify-content:flex-start;
         flex-direction: row;
-        background-color: #3A434D;
+        background-color:  #333333;
     }
-   
+   .hb{
+    color:#FFFFFF;
+   }
   .frase{
     font-family: 'Inter';
     font-style: italic;
@@ -132,6 +138,7 @@ li{
     font-size: 2rem;
     line-height: 3rem;
     margin-left: 17rem;
+    color: #333333;
   
      
   }
@@ -139,7 +146,7 @@ li{
       
       text-align: center;
      margin-top: 5rem;
-     background-color: #265366;
+     background-color: #0099CC;
     margin-bottom: 0.5rem;
     border-radius: 0.5rem;
     width: 19rem;

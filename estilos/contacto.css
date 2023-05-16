@@ -5,7 +5,7 @@
   box-sizing: content-box;
 }
 body{
-  background-color:#929CA8;
+  background-color:white;
   display: flex;
   flex-direction: column;
   
@@ -18,7 +18,7 @@ header{
   width: 100%;
   /*justify-content:flex-start;*/
   flex-direction: column;
-  background-color: #3A434D;
+  background-color:  #333333;
 }
 img{
 height: 15rem;
@@ -40,15 +40,19 @@ font-family: 'Inter';
 .hb{
 margin-bottom:3rem;
 font-size:2rem;
+color: white;
 }
 .boton{
 text-align: center;
 margin-top: 0.1rem;
-background-color: #265366;
+background-color: #0099CC;
 margin-bottom: 0.5rem;
 border-radius: 0.5rem;
 width: 19rem;
 margin-left: 0.2rem;
+}
+h1{
+  color: white;
 }
 a{  
 
@@ -95,13 +99,13 @@ margin-top: 40px;
 }
 
 .frente {
-  background-color: #265366;
+  background-color: #0099CC;
   color: black;
 }
 
 .atras {
 
-  background-color: #265366;
+  background-color: #0099CC;
   color: white;
   transform: rotateY(180deg);
 }
@@ -130,7 +134,7 @@ p{
   padding-top: 60px;
 }@media only screen and (min-width: 922px){
   body{
-    background-color:#929CA8; 
+    background-color:white;
     display: flex;
     flex-direction: row;
     font-size: 14px;
@@ -147,9 +151,11 @@ p{
     width: 100%;
     justify-content:flex-start;
     flex-direction: row;
-    background-color: #3A434D;
+    background-color:#333333;
 }
-
+h1{
+  color: white;
+}
 .frase{
 font-family: 'Inter';
 font-style: italic;
@@ -164,7 +170,7 @@ margin-left: 0.5rem;
   
   text-align: center;
  margin-top: 5rem;
- background-color: #265366;
+ background-color: #0099CC;
 margin-bottom: 0.5rem;
 border-radius: 0.5rem;
 width: 19rem;
@@ -185,5 +191,7 @@ margin-left:3rem;
 margin-right: 3rem;
 margin-top: 40px;
 }
-
+.hb{
+  color: white;
+}
 }
