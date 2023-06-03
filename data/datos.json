@@ -1,0 +1,94 @@
+[
+    {
+      "iba": true,
+      "name": "Vesper",
+      "colors": "#D88317",
+      "glass": "martini",
+      "category": "Before Dinner Cocktail",
+      "ingredients": [
+        { "unit": "cl", "amount": 6, "ingredient": "Gin" },
+        { "unit": "cl", "amount": 1.5, "ingredient": "Vodka" },
+        { "unit": "cl", "amount": 0.75, "ingredient": "Lillet Blonde" }
+      ],
+      "garnish": "Lemon twist",
+      "preparation": "Shake and strain into a chilled cocktail glass."
+    },
+    {
+      "iba": true,
+      "name": "Bacardi",
+      "colors": ["#F80304"],
+      "glass": "martini",
+      "category": "Before Dinner Cocktail",
+      "ingredients": [
+        {
+          "unit": "cl",
+          "amount": 4.5,
+          "ingredient": "White rum",
+          "label": "Bacardi White Rum"
+        },
+        { "unit": "cl", "amount": 2, "ingredient": "Lime juice" },
+        { "unit": "cl", "amount": 1, "ingredient": "Syrup", "label": "Grenadine" }
+      ],
+      "preparation": "Shake with ice cubes. Strain into chilled cocktail glass."
+    },
+    {
+      "iba": true,
+      "name": "Negroni",
+      "colors": "#ED0200",
+      "glass": "old-fashioned",
+      "category": "Before Dinner Cocktail",
+      "ingredients": [
+        { "unit": "cl", "amount": 3, "ingredient": "Gin" },
+        { "unit": "cl", "amount": 3, "ingredient": "Campari" },
+        {
+          "unit": "cl",
+          "amount": 3,
+          "ingredient": "Vermouth",
+          "label": "Sweet red vermouth"
+        }
+      ],
+      "garnish": "Half an orange slice",
+      "preparation": "Build into old-fashioned glass filled with ice. Stir gently."
+    },
+    {
+      "iba": true,
+      "name": "Rose",
+      "colors": "#FE29BC",
+      "glass": "martini",
+      "ingredients": [
+        { "unit": "cl", "amount": 2, "ingredient": "Kirsch" },
+        {
+          "unit": "cl",
+          "amount": 4,
+          "ingredient": "Vermouth",
+          "label": "Dry vermouth"
+        },
+        {
+          "amount": "3 dashes",
+          "ingredient": "Syrup",
+          "label": "Strawberry syrup"
+        }
+      ],
+      "preparation": "Stir all ingredients with ice and strain into a cocktail glass."
+    },
+    {
+      "iba": true,
+      "name": "Old Fashioned",
+      "colors": ["#E74A03", "#F1A507"],
+      "glass": "old-fashioned",
+      "category": "Before Dinner Cocktail",
+      "ingredients": [
+        {
+          "unit": "cl",
+          "amount": 4.5,
+          "ingredient": "Whiskey",
+          "label": "Bourbon or rye whiskey"
+        },
+        { "ingredient": "Angostura bitters", "amount": "2 dashes" },
+        { "ingredient": "Sugar", "amount": "1", "label": "Sugar cube" },
+        { "special": "Few dashes plain water" }
+      ],
+      "garnish": "Orange slice and cherry",
+      "preparation": "Place sugar cube in old-fashioned glass and saturate with bitters, add a dash of plain water. Muddle until dissolve. Fill the glass with ice cubes and add whisky."
+    }
+  ]

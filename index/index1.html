@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="../estilos/estilo2.css">
+    <title>Ejercicio del api fetch</title>
+
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0"
+    crossorigin="anonymous"
+  />
+
+
+</head>
+<body>
+    <div class="container text-center w-25 mt-4">
+
+        <h1>Algunos cocteles</h1>
+        <article class="contenido1">
+
+            
+        </article>
+        <h1>No encontraste tu coctel pues buscalo aqui</h1>
+        <form> 
+            <input class=" form-control"type="text" name="buscar" id="buscar">
+            <button type="submit" class="mt-2 btn btn-primary" onclick="traer();"> Buscar</button>
+        </form>
+
+        <article class="informacion">
+
+
+            
+        </article>
+
+        
+        <article>
+            <button type="submit" class="mt-2 btn btn-primary" onclick="comprar();">comprar</button>
+            <buttontype="submit" class="mt-2 btn btn-primary" onclick="carrito();">Agregar al carrito</button>
+        </article>
+        
+    </div>
+<script src="../efectos/api.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+.informacion{
+    display: flex;
+    flex-direction: row;
+}
+
+.contenido1{
+    display: flex;
+    flex-direction:row;
+    margin: 10px;
+}
+body{
+    display:flex;
+    flex-direction:row;
+}
